@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "yarn start",
     "start": "mdx-deck deck.mdx",
-    "update": "git add -a && git commit -m 'update' && git push"
+    "update": "git add -A && git commit -m 'update' && git push"
   },
   "dependencies": {
     "mdx-deck": "^2.4.0"
