@@ -1,0 +1,14 @@
+{
+  "name": "mdx-presentation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "yarn start",
+    "start": "mdx-deck deck.mdx",
+    "update": "git add -a && git commit -m 'update' && git push"
+  },
+  "dependencies": {
+    "mdx-deck": "^2.4.0"
+  }
+}
