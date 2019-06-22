@@ -1,6 +1,7 @@
 import future from '@mdx-deck/themes/future'
 import highlight from '@mdx-deck/themes/syntax-highlighter-prism'
 
+// TODO: Create function that cleans this up
 import { slides as one } from './slides/one.mdx'
 import { slides as two } from './slides/two.mdx'
 import { slides as three } from './slides/three.mdx'
