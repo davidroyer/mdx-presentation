@@ -8,7 +8,7 @@
     "start": "mdx-deck deck.js",
     "pdf": "mdx-deck pdf deck.js",
     "build": "mdx-deck build deck.js",    
-    "update": "git add -A && git commit -m 'update' && git push"
+    "update": "git add -A && git commit -m 'chore: update' && git push"
   },
   "dependencies": {
     "mdx-deck": "^2.4.0"
