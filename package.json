@@ -6,11 +6,14 @@
   "scripts": {
     "dev": "yarn start",
     "start": "mdx-deck deck.js",
-    "pdf": "mdx-deck pdf deck.js",
-    "build": "mdx-deck build deck.js",    
+    "pdf": "mdx-deck pdf deck.mdx",
+    "build": "mdx-deck build deck.js",
     "update": "git add -A && git commit -m 'chore: update' && git push"
   },
   "dependencies": {
-    "mdx-deck": "^2.4.0"
+    "mdx-deck": "^2.4.0",
+    "mdx-deck-code-surfer": "^0.5.5",
+    "prism-react-renderer": "^0.1.6",
+    "raw-loader": "^3.0.0"
   }
 }
